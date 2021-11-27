@@ -1,31 +1,5 @@
 # Python Flask: Stock Trades API
 
-## Project Specifications
-
-**Read-Only Files**
-- tests/*
-
-**Environment**  
-
-- Python version: 3.7
-- Flask version: 1.1.2
-- Flask-SQLAlchemy: 2.4.4
-- Default Port: 8000
-
-**Commands**
-- install: 
-```bash
-python3 -m venv venv; source venv/bin/activate; pip3 install -r requirements.txt; 
-```
-- run: 
-```bash
-flask init-db; flask run -p 8000
-```
-- test: 
-```bash
-pytest
-```
-    
 ## Question description
 
 In this challenge, your task is to implement a simple REST API to manage a collection of stock trades.
