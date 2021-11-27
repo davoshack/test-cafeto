@@ -1,3 +1,31 @@
+
+```
+(env) ➜  test-cafeto-api-rest git:(master) ✗ docker-compose exec api python -m pytest "src/tests" -p no:warnings --cov="src"
+============================================================================= test session starts ==============================================================================
+platform linux -- Python 3.9.5, pytest-6.2.4, py-1.11.0, pluggy-0.13.1
+rootdir: /usr/src/app/src/tests, configfile: pytest.ini
+plugins: cov-2.12.0
+collected 8 items                                                                                                                                                              
+
+src/tests/test_config.py ..                                                                                                                                              [ 25%]
+src/tests/test_trades.py ......                                                                                                                                          [100%]
+
+----------- coverage: platform linux, python 3.9.5-final-0 -----------
+Name                  Stmts   Miss Branch BrPart  Cover
+-------------------------------------------------------
+src/__init__.py          15      1      0      0    93%
+src/api/__init__.py       0      0      0      0   100%
+src/api/models.py        18      0      2      0   100%
+src/api/trade.py         33      0      6      0   100%
+src/config.py            10      0      6      0   100%
+-------------------------------------------------------
+TOTAL                    76      1     14      0    99%
+
+
+============================================================================== 8 passed in 0.87s ===============================================================================
+```
+
+
 # Python Flask: Stock Trades API
 
 ## Question description
